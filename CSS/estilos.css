@@ -1,0 +1,55 @@
+.bg-primary {
+  background-color: #1fb4b3 !important; }
+
+a {
+  color: #8f1014; }
+
+.btn-secondary {
+  background-color: #e61f26 !important;
+  border: 0px !important; }
+
+.btn-secondary:focus {
+  -webkit-box-shadow: 0px 0px 10px #bd151b !important;
+          box-shadow: 0px 0px 10px #bd151b !important; }
+
+.btn-secondary:hover {
+  background-color: #bd151b !important; }
+
+#principal {
+  -webkit-animation-name: principal;
+          animation-name: principal;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s; }
+
+@-webkit-keyframes principal {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes principal {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+#logo {
+  position: absolute;
+  top: 90%;
+  left: 83%; }
+
+.text-secondary {
+  color: #a61318 !important; }
+
+.dropdown-item:hover {
+  background-color: #cecece; }
+
+body {
+  font-family: 'Calisto MT'; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Algerian'; }
+
+.btn-link {
+  font-family: 'Calisto MT'; }
+
+/*# sourceMappingURL=estilos.css.map */
